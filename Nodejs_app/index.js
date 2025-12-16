@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify({
-    message: 'Node.js app deployed successfully. 🚀',
+    message: '*Node.js app deployed successfully* 🚀',
     hostname: require('os').hostname(),
     timestamp: new Date().toISOString()
   }));
